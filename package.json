@@ -1,0 +1,27 @@
+{
+	"name": "web-print-service",
+	"main": "app.js",
+	"description": "Print a website service",
+	"version": "0.1.3",
+	"author": {
+		"name": "Van Truong Pham",
+		"email": "invncur@gmail.com"
+	},
+	"keywords": [
+		"bussiness","print"
+	],
+	"bin": {
+		"printservice": "./bin.js"
+	},
+	"scripts": {
+		"run": "node start.js"
+	},
+	"eslintConfig": {},
+	"dependencies": {
+		"commander": "^6.0.0",
+		"express": "^4.17.1",
+		"pdf-to-printer": "^1.4.0",
+		"puppeteer": "^5.2.0"
+	},
+	"devDependencies": {}
+}
